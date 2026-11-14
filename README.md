@@ -1,78 +1,210 @@
-# Dededen-KAÇ-3 🐉
 
-**Dededen-KAÇ-3**, Minecraft'taki düşmanlarla mücadele edilen, silahların kullanıldığı ve farklı dünyalarda hayatta kalmaya çalışılan bir aksiyon oyunudur.
+# 🎮 DededenKaç3 - Nether Update
 
-Python ve Pygame ile geliştirilmektedir. Oyun sürekli güncellenmekte ve yeni özelliklerle geliştirilmektedir.
+**Minecraft temalı 3D görünümlü aksiyon, hayatta kalma ve macera oyunu.**
 
-## 🆕 Son Güncelleme – End Geliştirmeleri
+DededenKaç3, Pygame ile geliştirilen; farklı boyutlar, yaratıklar, silahlar, ekonomi, boss savaşları ve çok oyunculu Beta altyapısı içeren bir oyun projesidir.
 
-Bu güncellemede End dünyası genişletildi ve ejderha savaşı yeniden dengelendi.
+# 🆕 SON GÜNCELLEME: NETHER UPDATE
 
-### 🌌 End Dünyası
+Bu sürümde oyuna büyük içerik ve sistem güncellemeleri eklenmiştir.
 
-- 🏝️ End dünyasına yeni yüzen adalar eklendi.
-- 🚪 End ortamına yeni bir geçit silueti eklendi.
-- 🌌 End haritasının görsel tasarımı genişletildi.
+## 🌍 Boyutlar
 
-### 🐉 Ender Ejderhası – Savaş Dengesi
+### 🏡 Overworld
+- Minecraft tarzı köy ortamı.
+- Köyde evler, ağaçlar, çiftlikler ve sokak aydınlatmaları.
+- Köylü Dede görev sistemi.
+- Farklı düşman türleri.
+- Köyü yaratıklara karşı savunma.
 
-Ejderha savaşının daha dengeli ve oyuncu açısından daha yönetilebilir olması için saldırılar düzenlendi.
+### 🔥 Nether
+- 5 farklı Nether biyomu.
+- Nether kaleleri.
+- Lav alanları ve köprüler.
+- Kaynak toplama sistemi.
+- Ganimet sandıkları.
+- Piglin takas sistemi.
+- Strider bineği.
+- Nether'e özel yaratıklar.
+- Wither boss savaşı.
+- Nether'den Overworld'e geri dönüş.
 
-| Özellik | Eski / Önceki Değer | Yeni Değer |
-|---|---:|---:|
-| Ejderha canı | 1500 HP | **1500 HP** |
-| Ateş topu hasarı | 24 | **18** |
-| Ateş topu hızı | 8.0 | **5.4** |
-| Saldırı aralığı | 2.4–3 saniye | **4.2–5.2 saniye** |
-| Saldırı başına ateş topu | 2 | **1** |
+**Nether biyomları:**
+1. Nether Çoraklığı
+2. Kızıl Orman
+3. Çarpık Orman
+4. Ruh Kumu Vadisi
+5. Bazalt Deltası
 
-- 🔥 Ateş topu hasarı azaltıldı.
-- 🎯 Ateş topları yavaşlatıldı.
-- ⏱️ Ejderhanın saldırıları arasındaki süre artırıldı.
-- 🐉 Ejderhanın 1500 HP değeri korundu.
-- ⚔️ Boss savaşı daha dengeli hâle getirildi.
+### 🟣 The End
+- Özel End boyutu.
+- 1500 HP Ender Ejderhası.
+- 4 adet End kristali.
+- Ejderha iyileştirme sistemi.
+- Hareketli ejderha modeli.
+- Ateş topu saldırıları.
+- Boss savaş sistemi.
+- End portalı ile boyuta erişim.
 
-### 💎 End Kristalleri
+# 👾 Düşmanlar
 
-End kristallerinin dayanıklılık ve kırılma sistemi güncelleme kapsamında ele alındı.
+Oyunda bulunan yaratıklar:
 
-### 💀 İskelet Hasar Sistemi
+- Zombie
+- Skeleton
+- Creeper
+- Pillager
+- Warden
+- Piglin
+- Zombie Piglin
+- Hoglin
+- Zoglin
+- Blaze
+- Ghast
+- Magma Cube
+- Wither Skeleton
+- Enderman
+- Strider
+- Wither
 
-- 🏹 İskelet okunun hasarı **8** olarak korundu.
-- ⚔️ Yakın temas hasarı ayrı olarak kontrol edildi.
-- ❤️ Yakın temas hasarı **12 hasar/saniye** olarak kaldı.
+# 🔫 Silah Sistemi
 
-### 🌐 Multiplayer – Ağ Sistemi Geliştirmesi
+Oyunda farklı silahlar bulunmaktadır:
 
-Farklı Wi-Fi ağlarından bağlantı kurulabilmesi için yeni bir özellik eklendi.
+- Tabanca
+- AK-47
+- RPG
+- Minigun
+- Admin Silahı
 
-- 🌐 Modem destekliyorsa otomatik port açmayı deneyen sistem.
-- 🔌 Ağ bağlantısı için port yönlendirme desteği.
-- ⚙️ Modem ve internet sağlayıcısına bağlı bağlantı desteği.
+Silahlarda hasar, ateş hızı ve mermi sistemleri bulunmaktadır.
 
-> ⚠️ **ÖNEMLİ:** Otomatik port açma her modem veya internet sağlayıcısında çalışmayabilir. Farklı ağlardan gerçek oyuncularla bağlantı testi henüz yapılmamıştır.
+# 💰 Ekonomi ve Para Sistemi
 
-## 🔐 Kod Bütünlüğü ve Kontroller
+Oyunda düşmanları yenerek para kazanılabilir.
 
-- SHA-256 bütünlük kontrolü doğrulandı.
-- Python sözdizimi kontrol edildi.
-- Mevcut bütünlük kontrolü güncellemeyle uyumlu tutuldu.
+Kazanılan paralar markette kullanılabilir.
 
-## 🧪 Güncelleme Test Durumu
+### Market fiyatları
 
-| Kontrol | Durum |
-|---|---|
-| Python sözdizimi | ✅ Kontrol edildi |
-| SHA-256 bütünlük kontrolü | ✅ Doğrulandı |
-| End tasarım güncellemesi | ✅ Eklendi |
-| Ejderha saldırı dengesi | ✅ Düzenlendi |
-| İskelet ok hasarı | ✅ Korundu |
-| Farklı Wi-Fi ağlarında bağlantı | 🧪 Henüz test edilmedi |
+| Ürün | Fiyat |
+|---|---:|
+| Tabanca | Ücretsiz |
+| AK-47 | 400 |
+| RPG | 900 |
+| Minigun | 1500 |
+| Admin Silahı | 3000 |
+| Can yenileme | 150 |
+| Deri zırh | 120 |
+| Demir zırh | 250 |
+| Altın zırh | 400 |
+| Elmas zırh | 650 |
+| Admin Paneli | 6500 |
+
+### Para sistemi özellikleri
+- Bakiye kontrolü.
+- Satın alma doğrulaması.
+- Harcama kontrolü.
+- Gizlenmiş ekonomi tablosu.
+- HMAC doğrulaması.
+- SHA-256 bütünlük kontrolleri.
+- Yetkisiz ekonomi değişikliklerini tespit etme.
+
+# 🛡️ Zırh Sistemi
+
+6 farklı zırh seviyesi:
+
+1. Zırhsız
+2. Deri
+3. Demir
+4. Altın
+5. Elmas
+6. Netherit
+
+Netherit zırhı Nether kaynaklarıyla üretilebilir ve elmas zırh yükseltilebilir.
+
+# ⚙️ Nether Üretim Sistemi
+
+Nether kaynakları kullanılarak özel eşyalar üretilebilir.
+
+- Netherit külçesi.
+- Netherit zırh yükseltmesi.
+- Mantar çorbası.
+- Ruh Hızı.
+- Ateşi söndürme eşyası.
+
+# 🖥️ Admin Sistemi
+
+- Admin Paneli.
+- Admin Silahı.
+- Özel admin yetenekleri.
+- Oyun içi yönetim seçenekleri.
+- Satın alma doğrulaması.
+
+# 🌐 Multiplayer Beta
+
+Oyunda çok oyunculu altyapı bulunmaktadır.
+
+- Host / Client sistemi.
+- Aynı ağ üzerinden bağlantı.
+- IP üzerinden bağlantı altyapısı.
+- PIN tabanlı oturum.
+- HMAC-SHA256 paket doğrulaması.
+- Ağ bağlantısı ve oturum yönetimi.
+
+**Not:** Nether ve End boyutları bu sürümde Multiplayer Beta senkronizasyonuna dahil değildir.
+
+# 🔐 Güvenlik Sistemleri
+
+Oyunda çeşitli bütünlük ve doğrulama mekanizmaları bulunmaktadır.
+
+- SHA-256 bütünlük kontrolü.
+- HMAC doğrulaması.
+- Ekonomi verisi doğrulaması.
+- Bakiye kontrolü.
+- Satın alma doğrulaması.
+- Yetkisiz değişiklik tespiti.
+
+Bu sistemler oyun içi bütünlüğü artırmayı amaçlar; istemci tarafındaki kontroller tek başına tam güvenlik garantisi değildir.
+
+# 📱 Platform ve Gereksinimler
+
+- Python 3
+- Pygame
+- Android / Pydroid 3 desteği hedeflenmektedir.
+- PC üzerinde Python ile çalıştırılabilir.
+
+Kurulum:
+
+```bash
+pip install pygame
+```
+
+Çalıştırma:
+
+```bash
+python "DededenKaç3-NetherUpdate.py"
+```
+
+# 🚀 Gelecek Güncellemeler
+
+- Multiplayer sisteminin geliştirilmesi.
+- Boyutların Multiplayer desteği.
+- Yeni boss savaşları.
+- Yeni silahlar.
+- Yeni haritalar.
+- Ekonomi sisteminin geliştirilmesi.
+- Performans iyileştirmeleri.
+
+# 📌 Sürüm Bilgisi
+
+**Proje:** DededenKaç3  
+**Sürüm:** Nether Update  
+**Dil:** Python  
+**Oyun Motoru:** Pygame  
+**Geliştirici:** muhammedefevirus-create
 
 ---
 
-**Geliştirici:** Muhammet Efe  
-**Dil:** Python  
-**Oyun Kütüphanesi:** Pygame  
-**Platform:** Android / Pydroid 3
-
+**DededenKaç3 - Hayatta kal, savaş ve boyutları keşfet!**
